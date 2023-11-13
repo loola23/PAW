@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"jobs",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Employee')/Hierarchies('Employee')/Elements('Job Type')"
+		},
+		{
+			"@id":"Dimensions('Employee')/Hierarchies('Employee')/Elements('Job Code')"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"indentation",
+	"Alias":"Caption_Default",
+	"Expression":"{DRILLDOWNMEMBER({[organization].[organization].[Total Company]} , {[organization].[organization].[Total Company]} , RECURSIVE),DRILLDOWNMEMBER({[organization].[organization].[Testcase]} , {[organization].[organization].[Testcase]} , RECURSIVE)}"
+}

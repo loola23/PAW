@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"456",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CapitalList')/Hierarchies('CapitalList')/Elements('4')"
+		},
+		{
+			"@id":"Dimensions('CapitalList')/Hierarchies('CapitalList')/Elements('5')"
+		},
+		{
+			"@id":"Dimensions('CapitalList')/Hierarchies('CapitalList')/Elements('6')"
+		}
+	]
+}

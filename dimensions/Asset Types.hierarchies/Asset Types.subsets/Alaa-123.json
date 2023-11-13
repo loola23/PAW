@@ -1,0 +1,18 @@
+{
+	"@type":"Subset",
+	"Name":"Alaa-123",
+	"ExpandAbove":true,
+	"Alias":"Caption_Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Asset Types')/Hierarchies('Asset Types')/Elements('1210')"
+		},
+		{
+			"@id":"Dimensions('Asset Types')/Hierarchies('Asset Types')/Elements('1220')"
+		},
+		{
+			"@id":"Dimensions('Asset Types')/Hierarchies('Asset Types')/Elements('1230')"
+		}
+	]
+}

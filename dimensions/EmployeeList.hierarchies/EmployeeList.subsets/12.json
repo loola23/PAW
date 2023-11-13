@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"12",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('EmployeeList')/Hierarchies('EmployeeList')/Elements('1')"
+		},
+		{
+			"@id":"Dimensions('EmployeeList')/Hierarchies('EmployeeList')/Elements('2')"
+		}
+	]
+}

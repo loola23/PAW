@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"Error",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Error 1')"
+		},
+		{
+			"@id":"Dimensions('Error Measure')"
+		}
+	],
+	"Views@Code.links":[]
+}

@@ -1,0 +1,47 @@
+{
+	"@type":"MDXView",
+	"Name":"456",
+	"MDX@Code.link":"456.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Asset Types].[Asset Types]" : "Caption_Default",
+			"[CapitalList].[CapitalList]" : "MEMBER_NAME",
+			"[Version].[Version]" : "Caption_Default",
+			"[Year].[Year]" : "Caption_Default",
+			"[organization].[organization]" : "Caption_Default"
+		},
+		"ContextSets" : 
+		{
+			"[Asset Types].[Asset Types]" : 
+			{
+				"Expression" : "{[Asset Types].MEMBERS}"
+			},
+			"[Version].[Version]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Current"
+			},
+			"[Year].[Year]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			},
+			"[organization].[organization]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Workflow"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Asset Types].[Asset Types]" : false,
+			"[CapitalList].[CapitalList]" : false,
+			"[Capital].[Capital]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false,
+			"[organization].[organization]" : false
+		}
+	}
+}

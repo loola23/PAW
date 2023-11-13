@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Error Measure",
+	"Hierarchies@Code.links":
+	[
+		"Error Measure.hierarchies/Error Measure.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Error Measure')/Hierarchies('Error Measure')"
+	}
+}

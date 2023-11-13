@@ -1,0 +1,19 @@
+{
+	"@type":"Cube",
+	"Name":"XYZ",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('x')"
+		},
+		{
+			"@id":"Dimensions('y')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"XYZ.views/Alter-Hier.json",
+		"XYZ.views/default.json",
+		"XYZ.views/xy.json"
+	]
+}

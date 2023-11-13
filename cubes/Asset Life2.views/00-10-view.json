@@ -1,0 +1,27 @@
+{
+	"@type":"MDXView",
+	"Name":"00-10-view",
+	"MDX@Code.link":"00-10-view.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Asset Types].[Asset Types]" : "Caption_Default",
+			"[Version].[Version]" : "Caption_Default"
+		},
+		"ContextSets" : 
+		{
+			"[Asset Life].[Asset Life]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Asset Life].[Asset Life]" : false,
+			"[Asset Types].[Asset Types]" : true,
+			"[Version].[Version]" : false
+		}
+	}
+}

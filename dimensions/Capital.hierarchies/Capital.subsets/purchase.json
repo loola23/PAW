@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"purchase",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Capital')/Hierarchies('Capital')/Elements('Purchase Cost')"
+		},
+		{
+			"@id":"Dimensions('Capital')/Hierarchies('Capital')/Elements('Purchase Period')"
+		}
+	]
+}

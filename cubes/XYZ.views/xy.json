@@ -1,0 +1,18 @@
+{
+	"@type":"MDXView",
+	"Name":"xy",
+	"MDX@Code.link":"xy.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[x].[x]" : "MEMBER_NAME"
+		},
+		"ContextSets" : {},
+		"ExpandAboves" : 
+		{
+			"[x].[x]" : false,
+			"[y].[y]" : false
+		}
+	}
+}

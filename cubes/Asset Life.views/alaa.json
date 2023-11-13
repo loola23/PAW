@@ -1,5 +1,20 @@
 {
 	"@type":"MDXView",
 	"Name":"alaa",
-	"MDX@Code.link":"alaa.mdx"
+	"MDX@Code.link":"alaa.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Asset Types].[Asset Types]" : "Caption_Default",
+			"[Version].[Version]" : "MEMBER_NAME"
+		},
+		"ContextSets" : {},
+		"ExpandAboves" : 
+		{
+			"[Asset Life].[Asset Life]" : false,
+			"[Asset Types].[Asset Types]" : false,
+			"[Version].[Version]" : false
+		}
+	}
 }

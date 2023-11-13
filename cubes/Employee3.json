@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"Employee3",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('EmpList')"
+		},
+		{
+			"@id":"Dimensions('Employee')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"Employee3.views/list_version.json"
+	]
+}

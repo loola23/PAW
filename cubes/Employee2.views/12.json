@@ -1,0 +1,27 @@
+{
+	"@type":"MDXView",
+	"Name":"12",
+	"MDX@Code.link":"12.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[EmployeeList].[EmployeeList]" : "MEMBER_NAME",
+			"[Version].[Version]" : "Caption_Default"
+		},
+		"ContextSets" : 
+		{
+			"[Version].[Version]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[EmployeeList].[EmployeeList]" : false,
+			"[Employee].[Employee]" : false,
+			"[Version].[Version]" : false
+		}
+	}
+}

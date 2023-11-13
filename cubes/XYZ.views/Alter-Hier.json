@@ -1,0 +1,15 @@
+{
+	"@type":"MDXView",
+	"Name":"Alter-Hier",
+	"MDX@Code.link":"Alter-Hier.mdx",
+	"Meta" : 
+	{
+		"Aliases" : {},
+		"ContextSets" : {},
+		"ExpandAboves" : 
+		{
+			"[x].[x-alternate]" : false,
+			"[y].[y]" : false
+		}
+	}
+}

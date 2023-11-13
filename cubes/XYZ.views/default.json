@@ -1,0 +1,15 @@
+{
+	"@type":"MDXView",
+	"Name":"default",
+	"MDX@Code.link":"default.mdx",
+	"Meta" : 
+	{
+		"Aliases" : {},
+		"ContextSets" : {},
+		"ExpandAboves" : 
+		{
+			"[x].[x]" : false,
+			"[y].[y]" : false
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Currency",
+	"Elements":
+	[
+		{
+			"Name":"USD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CDN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GBP",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Currency.subsets/All Members.json",
+		"Currency.subsets/Default.json",
+		"Currency.subsets/USD.json"
+	]
+}

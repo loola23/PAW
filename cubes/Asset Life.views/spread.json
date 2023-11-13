@@ -1,0 +1,27 @@
+{
+	"@type":"MDXView",
+	"Name":"spread",
+	"MDX@Code.link":"spread.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Asset Types].[Asset Types]" : "Caption_Default",
+			"[Version].[Version]" : "Caption_Default"
+		},
+		"ContextSets" : 
+		{
+			"[Version].[Version]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Current"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Asset Life].[Asset Life]" : false,
+			"[Asset Types].[Asset Types]" : true,
+			"[Version].[Version]" : false
+		}
+	}
+}

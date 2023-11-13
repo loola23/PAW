@@ -1,0 +1,7 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"ExpandAbove":true,
+	"Alias":"Caption_Default",
+	"Expression":"TM1SubsetAll([Asset Types])"
+}

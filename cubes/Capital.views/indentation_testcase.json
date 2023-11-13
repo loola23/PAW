@@ -1,0 +1,41 @@
+{
+	"@type":"MDXView",
+	"Name":"indentation_testcase",
+	"MDX@Code.link":"indentation_testcase.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Asset Types].[Asset Types]" : "Caption_Default",
+			"[Version].[Version]" : "Caption_Default",
+			"[Year].[Year]" : "Caption_Default",
+			"[organization].[organization]" : "Caption_Base"
+		},
+		"ContextSets" : 
+		{
+			"[Asset Types].[Asset Types]" : 
+			{
+				"Expression" : "{[Asset Types].MEMBERS}"
+			},
+			"[Version].[Version]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Current"
+			},
+			"[Year].[Year]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Asset Types].[Asset Types]" : false,
+			"[CapitalList].[CapitalList]" : false,
+			"[Capital].[Capital]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false,
+			"[organization].[organization]" : true
+		}
+	}
+}

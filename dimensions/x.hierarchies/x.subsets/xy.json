@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"xy",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('x')/Hierarchies('x')/Elements('XY01')"
+		}
+	]
+}

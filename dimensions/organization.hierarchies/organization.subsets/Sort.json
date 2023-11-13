@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Sort",
+	"Alias":"Caption_Default",
+	"Expression":"{EXCEPT(DRILLDOWNMEMBER({[organization].[organization].[Test Sort]} , {[organization].[organization].[Test Sort]} , RECURSIVE) , {[organization].[organization].[Test Sort]})}"
+}

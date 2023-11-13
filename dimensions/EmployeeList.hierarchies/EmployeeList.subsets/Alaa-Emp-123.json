@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Alaa-Emp-123",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('EmployeeList')/Hierarchies('EmployeeList')/Elements('1')"
+		},
+		{
+			"@id":"Dimensions('EmployeeList')/Hierarchies('EmployeeList')/Elements('2')"
+		},
+		{
+			"@id":"Dimensions('EmployeeList')/Hierarchies('EmployeeList')/Elements('3')"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"Asset Life2",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Asset Life')"
+		},
+		{
+			"@id":"Dimensions('Asset Types')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"Asset Life2.views/00-10-view.json"
+	]
+}

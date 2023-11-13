@@ -1,0 +1,21 @@
+{
+	"@type":"MDXView",
+	"Name":"jobs-12",
+	"MDX@Code.link":"jobs-12.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[EmployeeList].[EmployeeList]" : "MEMBER_NAME",
+			"[Employee].[Employee]" : "MEMBER_NAME",
+			"[Version].[Version]" : "Caption_Default"
+		},
+		"ContextSets" : {},
+		"ExpandAboves" : 
+		{
+			"[EmployeeList].[EmployeeList]" : false,
+			"[Employee].[Employee]" : false,
+			"[Version].[Version]" : false
+		}
+	}
+}

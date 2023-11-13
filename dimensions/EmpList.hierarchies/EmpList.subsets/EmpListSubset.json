@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"EmpListSubset",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('EmpList')/Hierarchies('EmpList')/Elements('1')"
+		},
+		{
+			"@id":"Dimensions('EmpList')/Hierarchies('EmpList')/Elements('2')"
+		},
+		{
+			"@id":"Dimensions('EmpList')/Hierarchies('EmpList')/Elements('3')"
+		}
+	]
+}

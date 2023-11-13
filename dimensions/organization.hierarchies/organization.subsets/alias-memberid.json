@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"alias-memberid",
+	"Alias":"Caption_Default",
+	"Expression":"{DRILLDOWNMEMBER({[organization].[organization].[100]} , {[organization].[organization].[100]} , RECURSIVE)}"
+}

@@ -1,0 +1,15 @@
+{
+	"@type":"Subset",
+	"Name":"12-test",
+	"ExpandAbove":true,
+	"Alias":"Caption_Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Asset Types')/Hierarchies('Asset Types')/Elements('1250')"
+		},
+		{
+			"@id":"Dimensions('Asset Types')/Hierarchies('Asset Types')/Elements('1200')"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"@type":"MDXView",
+	"Name":"USD",
+	"MDX@Code.link":"USD.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Currency].[Currency]" : "MEMBER_NAME",
+			"[Version].[Version]" : "Caption_Default",
+			"[Year].[Year]" : "Caption_Default"
+		},
+		"ContextSets" : 
+		{
+			"[Exchange Rate].[Exchange Rate]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			},
+			"[Version].[Version]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Current"
+			},
+			"[Year].[Year]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Currency].[Currency]" : false,
+			"[Exchange Rate Type].[Exchange Rate Type]" : false,
+			"[Exchange Rate].[Exchange Rate]" : false,
+			"[Month].[Month]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false
+		}
+	}
+}

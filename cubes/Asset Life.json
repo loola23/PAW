@@ -1,7 +1,6 @@
 {
 	"@type":"Cube",
 	"Name":"Asset Life",
-	"Rules@Code.link":"Asset Life.rules",
 	"Dimensions":
 	[
 		{
@@ -14,13 +13,27 @@
 			"@id":"Dimensions('Asset Life')"
 		}
 	],
+	"Rules@Code.link":"Asset Life.rules",
+	"ViewStorageMaxMemory":999999999,
+	"ViewStorageMinTime":1,
 	"Views@Code.links":
 	[
+		"Asset Life.views/2030-Arch.json",
 		"Asset Life.views/All.json",
 		"Asset Life.views/Asset Life.json",
 		"Asset Life.views/Default.json",
 		"Asset Life.views/Drill_Asset Life.json",
 		"Asset Life.views/zCopyFrom.json",
-		"Asset Life.views/alaa.json"
+		"Asset Life.views/120-test-view.json",
+		"Asset Life.views/121.json",
+		"Asset Life.views/2030.json",
+		"Asset Life.views/3040.json",
+		"Asset Life.views/_xyz.json",
+		"Asset Life.views/al-4050.json",
+		"Asset Life.views/alaa.json",
+		"Asset Life.views/Alaa-123-view.json",
+		"Asset Life.views/PAW.json",
+		"Asset Life.views/spread.json",
+		"Asset Life.views/zzzz.json"
 	]
 }
