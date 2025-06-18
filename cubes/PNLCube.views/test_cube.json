@@ -1,0 +1,27 @@
+{
+	"@type":"MDXView",
+	"Name":"test_cube",
+	"MDX@Code.link":"test_cube.mdx",
+	"Meta" : 
+	{
+		"Aliases" : {},
+		"ContextSets" : 
+		{
+			"[actvsbud].[actvsbud]" : 
+			{
+				"Expression" : "{[actvsbud].[actvsbud].MEMBERS}"
+			},
+			"[region].[region]" : 
+			{
+				"Expression" : "{[region].[region].MEMBERS}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[account2].[account2]" : false,
+			"[actvsbud].[actvsbud]" : false,
+			"[month].[month]" : false,
+			"[region].[region]" : false
+		}
+	}
+}

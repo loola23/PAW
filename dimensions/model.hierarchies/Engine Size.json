@@ -1,0 +1,366 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Engine Size",
+	"Elements":
+	[
+		{
+			"Name":"T Series 5.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 5.0 L Coupe",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 4.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 4.0 L Coupe",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 3.2 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 3.2 L Coupe",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 2.8 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 2.8 L Coupe",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.4 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.4 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.4 L Sedan 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.4 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.0 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.0 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.0 L Sedan 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.5 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.5 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.5 L Sedan 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.5 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.0 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 1.8 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 1.8 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.5 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.5 L Convertible",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.0 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.0 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.0 L Convertible",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 1.8 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"others",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"L Series 1.8 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 1.8 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"1.8",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"L Series 1.8 L Convertible",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 1.6 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"1.6",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"L Series 1.6 L Convertible",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Engine Size",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"others",
+			"ComponentName":"L Series 1.8 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"L Series 1.8 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"L Series 2.0 L Convertible",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"L Series 2.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"L Series 2.0 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"L Series 2.0 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"L Series 2.5 L Convertible",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"L Series 2.5 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 1.8 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 1.8 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 2.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 2.0 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 2.5 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 2.5 L Sedan 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 2.5 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 2.5 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 3.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 3.0 L Sedan 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 3.0 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 3.0 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 3.4 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 3.4 L Sedan 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 3.4 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"S Series 3.4 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"T Series 2.8 L Coupe",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"T Series 2.8 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"T Series 3.2 L Coupe",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"T Series 3.2 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"T Series 4.0 L Coupe",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"T Series 4.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"T Series 5.0 L Coupe",
+			"Weight":1
+		},
+		{
+			"ParentName":"others",
+			"ComponentName":"T Series 5.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"1.8",
+			"ComponentName":"L Series 1.8 L Convertible",
+			"Weight":1
+		},
+		{
+			"ParentName":"1.8",
+			"ComponentName":"L Series 1.8 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"1.6",
+			"ComponentName":"L Series 1.6 L Convertible",
+			"Weight":1
+		},
+		{
+			"ParentName":"1.6",
+			"ComponentName":"L Series 1.6 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Engine Size",
+			"ComponentName":"1.6",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Engine Size",
+			"ComponentName":"1.8",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Engine Size",
+			"ComponentName":"others",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

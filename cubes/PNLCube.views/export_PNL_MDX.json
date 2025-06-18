@@ -1,0 +1,27 @@
+{
+	"@type":"MDXView",
+	"Name":"export_PNL_MDX",
+	"MDX@Code.link":"export_PNL_MDX.mdx",
+	"Meta" : 
+	{
+		"Aliases" : {},
+		"ContextSets" : 
+		{
+			"[actvsbud].[actvsbud]" : 
+			{
+				"Expression" : "{[actvsbud].[actvsbud].MEMBERS}"
+			},
+			"[region].[region]" : 
+			{
+				"Expression" : "{[region].[region].MEMBERS}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[account2].[account2]" : false,
+			"[actvsbud].[actvsbud]" : false,
+			"[month].[month]" : false,
+			"[region].[region]" : false
+		}
+	}
+}

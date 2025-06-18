@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"_abc",
-	"Expression":"{TM1SUBSETALL([Asset Life])}"
-}

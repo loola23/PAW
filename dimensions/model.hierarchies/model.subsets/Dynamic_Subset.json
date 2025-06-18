@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Dynamic_Subset",
+	"Expression":"{TOPPERCENT(TM1FILTERBYLEVEL(DESCENDANTS({[model].[model].[Total]}) , 0) , 20.000000 , [SalesCube].([actvsbud].[actvsbud].[Budget],[region].[region].CURRENTMEMBER,[account1].[account1].[Units],[month].[month].[Year]))}"
+}

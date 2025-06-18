@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"mdx-test-fr",
-	"Alias":"Caption_Default",
-	"Expression":"{{{{{Filter(DISTINCT({DESCENDANTS({[Organization].[Organization].[Total Company]})}), VAL([Organization].[Organization].CURRENTMEMBER.PROPERTIES(\"LEVEL_NUMBER\"))>= 2 )}}}}}"
-}
