@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"DS2",
-	"Expression":"{DRILLDOWNMEMBER(DRILLDOWNMEMBER(TM1SUBSETALL([model]) , {[model].[T Series Coupe]}) , {[model].[S Series 2WD]})}"
-}

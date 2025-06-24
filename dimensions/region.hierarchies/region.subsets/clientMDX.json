@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"clientMDX",
-	"Expression":"{GENERATE([account1].[Gross Margin].CHILDREN , FILTER(TM1FILTERBYLEVEL(TM1SUBSETALL([region]) , 0) , [SalesCube].([actvsbud].[Actual],[model].[Total],[account1].CURRENTMEMBER,[month].[Year]) > 100000))}"
-}
